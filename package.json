@@ -1,0 +1,28 @@
+{
+  "name": "electron-auto-update",
+  "version": "0.1.0",
+  "description": "A test bed for running auto-updates in Electron via GitHub releases",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "publish": "build -p always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roymclellan/ElectronAutoUpdate.git"
+  },
+  "author": "Roy McLellan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roymclellan/ElectronAutoUpdate/issues"
+  },
+  "homepage": "https://github.com/roymclellan/ElectronAutoUpdate#readme",
+  "dependencies": {
+    "electron-log": "^2.2.14",
+    "electron-updater": "^2.21.10"
+  },
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.13.2"
+  }
+}
